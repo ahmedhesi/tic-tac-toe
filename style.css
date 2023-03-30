@@ -1,7 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif;
 	background-color: black;
-	background-image: url("https://th-thumbnailer.cdn-si-edu.com/ECzKedBz5QPW7KPa5gFWHauqlYI=/fit-in/1072x0/https://tf-cmsv2-journeys-media.s3.amazonaws.com/filer_public/26/ee/26ee475c-dc15-47ce-8ca9-c1156c6c2f8e/egp_pyramidssphinx_dt_l_153537450.jpeg");
+	background-image: url("https://images3.alphacoders.com/914/thumb-1920-914671.png");
 	background-size: cover;
 }
 
@@ -15,7 +15,7 @@ section {
     width: 100px;
     height: 100px;
     box-shadow: 2px 2px 2px 2px grey;
-    border: 2px solid green;
+    border: 2px solid rgb(212, 36, 92);
     cursor: pointer;
     line-height: 100px;
     font-size: 60px;
@@ -23,6 +23,30 @@ section {
 
 .game--title {
     font-size: 100px;
-    color: green;
+    color: rgb(64, 11, 237);
     margin: 10px auto;
+}
+.game--container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 10px auto;
+    background-color:grey;
+    color: green;
+}
+
+.game--status {
+    font-size: 50px;
+    color: rgb(4, 1, 11);
+    margin: 20px auto;
+}
+
+.game--restart {
+    background-color: grey;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    color: rgb(232, 242, 232);
+    box-shadow: 2px 2px 2px 2px green;
+    border: 2px solid black;
 }
