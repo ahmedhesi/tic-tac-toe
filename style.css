@@ -1,0 +1,28 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+	background-color: black;
+	background-image: url("https://th-thumbnailer.cdn-si-edu.com/ECzKedBz5QPW7KPa5gFWHauqlYI=/fit-in/1072x0/https://tf-cmsv2-journeys-media.s3.amazonaws.com/filer_public/26/ee/26ee475c-dc15-47ce-8ca9-c1156c6c2f8e/egp_pyramidssphinx_dt_l_153537450.jpeg");
+	background-size: cover;
+}
+
+section {
+    text-align: center;
+}
+
+
+.cell {
+    font-family: 'Times New Roman', Times, serif;
+    width: 100px;
+    height: 100px;
+    box-shadow: 2px 2px 2px 2px grey;
+    border: 2px solid green;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}
+
+.game--title {
+    font-size: 100px;
+    color: green;
+    margin: 10px auto;
+}
